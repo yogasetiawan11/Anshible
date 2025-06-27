@@ -27,7 +27,7 @@ Here are the main reasons why Ansible is widely used:
 
 - Automate routine admin tasks (user creation, service restart)
 
-- Manage cloud environments (AWS, Azure, GCP)
+- Manage/provisioning cloud environments (AWS, Azure, GCP)
 
 - Handle multi tier deployment (Frontend, Backend, Database)
 
