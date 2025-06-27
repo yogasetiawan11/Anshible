@@ -4,6 +4,7 @@ It helps automate repetitive tasks across many servers with simple commands.
 
 Ansible works by connecting to your nodes (servers, VMs, or containers) over SSH and pushing out small programs called modules that do the actual work.
 
+
 ## Why Use Ansible?
 Here are the main reasons why Ansible is widely used:
 
@@ -16,3 +17,18 @@ Here are the main reasons why Ansible is widely used:
 - Secure: Uses SSH and does not require any special security infrastructure.
 
 - Repeatable and version-controlled: Infrastructure can be managed like code (Infrastructure as Code - IaC).
+
+
+
+## What Can Ansible Do?
+- Install and configure software (e.g., NGINX, MySQL)
+
+- Set up servers for web applications or databases
+
+- Automate routine admin tasks (user creation, service restart)
+
+- Manage cloud environments (AWS, Azure, GCP)
+
+- Handle multi tier deployment (Frontend, Backend, Database)
+
+
