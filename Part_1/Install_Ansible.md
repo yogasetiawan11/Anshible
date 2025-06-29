@@ -1,5 +1,5 @@
-#### install a Ansible in a new VM
-``$ python3 -m pip install --user ansible``
+#### install a Ansible in ubuntu
+``sudo apt install``
 
 #### To verify Ansible has installed run this command:
 ``ansible --version``
