@@ -10,3 +10,46 @@ This way, YAML helps you pass structured data (like lists, dictionaries) to your
 In the same case you can also use some alternative like json and txt. 
 
 But Yaml has its own advantage that is readable format.
+
+## Yaml syntax
+
+### String, Number, Boolean
+
+```bash
+String: "yoga", "setiawan"
+Number: 20
+Boolean: true
+```
+### List
+
+```bash
+student:
+  - Anwar
+  - Jhon
+  - Mario
+  - Marcus
+```
+
+### Dictionary
+
+```bash
+Person:
+   name: Yoga 
+   age: 20
+   country: Indonesia
+```
+
+### List of Dictionary
+Yaml allow nesting list and dictionary to represent more complex data
+
+```bash
+group:
+  group_1:
+   - red
+   - orange
+   - purple
+   group_2:
+   - black
+   - white
+   - green
+```
