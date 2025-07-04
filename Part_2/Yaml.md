@@ -43,12 +43,12 @@ Person:
 Yaml allow nesting list and dictionary to represent more complex data
 
 ```bash
-group:
-  group_1:
+tasks:
+  task_1:
    - red
    - orange
    - purple
-   group_2:
+   task_2:
    - black
    - white
    - green
