@@ -3,9 +3,25 @@ typically ``Inventory`` or is a file which used By Control Node to understand an
 
 You can put this ``.ini`` anywhere but it's recommended to place in folder ``etc/Ansible/host`` 
 
-It contain a list of IP address or Host name (manage nodes) you want to control. 
+It contains a list of IP addresses or hostnames (managed nodes) that you want to control.
+You can directly specify the VM or instance name within the inventory file.
+
 
 ## Example
 ```bash
-[]
+ubuntu@192.168.1.10
+ubuntu@192.168.1.11
+
+```
+
+or you can make a groups based on your server:
+
+```bash
+[App servers]
+192.168.1.10
+192.168.1.11
+
+[DB servers]
+192.168.1.20
+
 ```
