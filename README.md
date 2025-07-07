@@ -1,4 +1,7 @@
 # What is Ansible?
+
+![Image](https://github.com/user-attachments/assets/bf0a42d0-2863-446f-af9a-7e08ee751c0e)
+
 Ansible is an open-source IT automation tool used to configure systems, deploy software, and manage infrastructure as code.
 It helps automate repetitive tasks across many servers with simple commands.
 
