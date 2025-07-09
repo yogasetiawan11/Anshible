@@ -9,14 +9,14 @@ Install ``Apache server``, ``Creating files on the target server``, ``Restarting
 
 **Simple Example** 
 ```bash
-ansible inventory.ini -m shell -a "apt update" all
+ansible -i name_your_inventory all -m "shell" -a "touch yoga setiawan"
 ```
 
 ``ansible:`` Runs an ad hoc Ansible command.
-``inventory.ini:`` Specifies the inventory file containing the list of target hosts.
-``-m "shell":`` Uses the shell module to run shell commands on the target hosts.
-``-a "apt update":`` The argument to the module; runs the apt update command (updates package lists on Debian/Ubuntu systems).
-``all:`` Runs the command on all hosts listed in the inventory. you can also use one host/group within ``.ini`` file.
+``-i name_inventory:`` Specifies the inventory file containing the list of target hosts or IP addresses.
+``-m "shell":`` module Uses the shell module to run shell commands on the target hosts.
+``-a "touch":`` The argument to the module; runs the touch command (make a new file).
+``all:`` Runs the command on all hosts listed in the inventory. you can also use one host/group within ``.ini`` if you have 1 host only you can change with the name IP address but if have 100 IP you can make a group inside the ``.ini`` file.
 
 
 - Link to learn more about ad hoc command:
