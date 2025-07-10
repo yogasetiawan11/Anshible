@@ -1,6 +1,6 @@
 ## What is Ansible Galaxy
-basically Ansible is like a market place for Ansible roles In Ansible Galaxy there are many ,Module, Task, Role that are written by different Devops engineer that you can use instead of write from scratch. 
-Example if you have a task to install docker in your *Control Node* and you maybe have different os Instead of writting Playbook or Role one by one You can simply go to Ansible Galaxy and search for the code that suits with your need.
+basically Ansible is like a market place for Ansible roles In Ansible Galaxy there are many Module, Task, Role that are written by different Devops engineer that you can use instead of write from scratch. 
+Example if you have a task to install docker in your *Control Node* and you maybe have different OS, Instead of writting Playbook or Role one by one You can simply go to Ansible Galaxy and search for the code that suits for your need.
 
 **Example command galaxy to install Docker**
 ```bash
