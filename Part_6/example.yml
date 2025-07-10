@@ -1,0 +1,23 @@
+---
+name: testing
+host: all
+become: true
+  
+  tasks:
+    - name: Ensure openssh and openssl exist
+      ansible.builtin.apt:
+         name: {{items}}
+         state: latest
+      loop:
+        - openssh
+        - openssl
+         ignore_errors: yes                      #Error Handling you can filled with yes or true
+    - name: verify docker has been istalled
+      ansible.buildin.command: docker --version
+        
+    - name: install docker
+      ansible.buildin.apt:
+        name: docker.io
+        state: latest
+      when:
+        output.failed
