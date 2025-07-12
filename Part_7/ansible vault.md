@@ -6,7 +6,7 @@ assume you're a DevOps engineer within Playbooks you create EC2 instance or othe
 then within this Playbook you have to provide `aws secret key` or `access key`afterwards you want to share this Playbook with other in organization through git then the sensitive information become public and this is how you need to secure your sensitive information
 
 ## How?
-to secure sensitive information you don't need to install any tools instead you can simply run command ``ansible-vault`` in control node the you will see positional arguments:
+to secure sensitive information you don't need to install any tools instead you can simply run command ``ansible-vault`` in control node then you will see positional arguments:
   {create,decrypt,edit,view,encrypt,encrypt_string,rekey}
     create              Create new vault encrypted file
     decrypt             Decrypt vault encrypted file
@@ -15,3 +15,4 @@ to secure sensitive information you don't need to install any tools instead you 
     encrypt             Encrypt YAML file
     encrypt_string      Encrypt a string
     rekey               Re-key a vault encrypted file
+
