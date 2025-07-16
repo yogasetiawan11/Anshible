@@ -7,12 +7,12 @@ then within this Playbook you have to provide `aws secret key` or `access key`af
 
 ## How?
 to secure sensitive information you don't need to install any tools instead you can simply run command ``ansible-vault`` in control node then you will see positional arguments:
-  {create,decrypt,edit,view,encrypt,encrypt_string,rekey}
-    create              Create new vault encrypted file
-    decrypt             Decrypt vault encrypted file
-    edit                Edit vault encrypted file
-    view                View vault encrypted file
-    encrypt             Encrypt YAML file
-    encrypt_string      Encrypt a string
-    rekey               Re-key a vault encrypted file
+  `{create, decrypt, edit, view, encrypt, encrypt_string, rekey}`
+- create              Create new vault encrypted file
+- decrypt             Decrypt vault encrypted file
+- edit                Edit vault encrypted file
+- view                View vault encrypted file
+- encrypt             Encrypt YAML file
+- encrypt_string      Encrypt a string
+- rekey               Re-key a vault encrypted file
 
