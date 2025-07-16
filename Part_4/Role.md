@@ -8,7 +8,7 @@ This modular approach promotes reusability, maintainability, and consistency acr
 to make a role you can take individual part in Yaml file and put them each and every folder. Ansible can create that folder structure using command 
 ```bash
 ansible galaxy role init "new_folder"
-`` 
+```
 
 ## Why use ansible roles
 With Ansible roles, we can organize tasks, variables, files, and templates into separate folders instead of putting everything into a single YAML file. If you have hundreds or thousands of tasks in one file, it becomes difficult to manage and understand. By using roles, you make your playbooks easier to read, maintain,
